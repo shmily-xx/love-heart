@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>1234</title>
     <style type="text/css">
         * {
             padding: 0;
@@ -30,7 +30,7 @@
             color: #ccc
         }
 
-        .wai {
+        .outside {
             height: auto;
             width: 100%;
             overflow: hidden;
@@ -46,7 +46,7 @@
             -webkit-line-clamp: 3;
         }
 
-        .shi {
+        .inside {
             font-size: 30px;
             color: #09F;
             height: 40px;
@@ -63,24 +63,24 @@
 <body>
 
     <body>
-        <div id="wai" class="wai">
-            <div id="shi" class="shi" style="width: 100px;">
-                星光闪烁，你偏偏是最亮的一颗   ---- TO:
+        <div id="outside" class="outside">
+            <div id="inside" class="inside" style="width: 0px;text-align: center;">
+                星光闪烁，你偏偏是最亮的一颗   ---- TO:1234
             </div>
         </div>
     </body>
     <script type="text/javascript">
-        showshi();
-        function showshi() {
-            var s = document.getElementById("shi");
-            if (parseInt(s.style.width) < 1500) {
+        showInside();
+        function showInside() {
+            var s = document.getElementById("inside");
+            if (parseInt(s.style.width) < 650) {
                 var w = parseInt(s.style.width) + 1;
                 s.style.width = w + "px";
-                window.setTimeout("showshi()", 50);
+                window.setTimeout("showInside()", 50);
             }
         }
     </script>
-    <canvas id="pinkboard"></canvas>
+    <canvas id="pinkBoard"></canvas>
 
     <script>
 
@@ -318,7 +318,7 @@
                 onResize();
                 render();
             }, 10);
-        })(document.getElementById('pinkboard'));
+        })(document.getElementById('pinkBoard'));
     </script>
 </body>
 
