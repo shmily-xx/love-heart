@@ -74,7 +74,7 @@
         function showInside() {
             var s = document.getElementById("inside");
             if (parseInt(s.style.width) < 650) {
-                var w = parseInt(s.style.width) + 1;
+                var w = parseInt(s.style.width) + 10;
                 s.style.width = w + "px";
                 window.setTimeout("showInside()", 50);
             }
