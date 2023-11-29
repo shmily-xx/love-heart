@@ -59,7 +59,8 @@ def shrink(x, y, ratio):
     :param ratio: 比例
     :return: 新坐标
     """
-    force = -1 / (((x - CANVAS_CENTER_X) ** 2 + (y - CANVAS_CENTER_Y) ** 2) ** 0.6)  # 这个参数...
+    force = -1 / (((x - CANVAS_CENTER_X) ** 2 + (y - CANVAS_CENTER_Y) ** 2) **
+                  0.6)  # 这个参数...
     dx = ratio * force * (x - CANVAS_CENTER_X)
     dy = ratio * force * (y - CANVAS_CENTER_Y)
     return x - dx, y - dy
@@ -116,7 +117,8 @@ class Heart:
     @staticmethod
     def calc_position(x, y, ratio):
         # 调整缩放比例
-        force = 1 / (((x - CANVAS_CENTER_X) ** 2 + (y - CANVAS_CENTER_Y) ** 2) ** 0.520)  # 魔法参数
+        force = 1 / (((x - CANVAS_CENTER_X) ** 2 +
+                     (y - CANVAS_CENTER_Y) ** 2) ** 0.520)  # 魔法参数
 
         dx = ratio * force * (x - CANVAS_CENTER_X) + random.randint(-1, 1)
         dy = ratio * force * (y - CANVAS_CENTER_Y) + random.randint(-1, 1)
@@ -127,7 +129,8 @@ class Heart:
         ratio = 10 * curve(generate_frame / 10 * pi)  # 圆滑的周期的缩放比例
 
         halo_radius = int(4 + 6 * (1 + curve(generate_frame / 10 * pi)))
-        halo_number = int(3000 + 4000 * abs(curve(generate_frame / 10 * pi) ** 2))
+        halo_number = int(
+            3000 + 4000 * abs(curve(generate_frame / 10 * pi) ** 2))
 
         all_points = []
 
@@ -166,7 +169,8 @@ class Heart:
 
     def render(self, render_canvas, render_frame):
         for x, y, size in self.all_points[render_frame % self.generate_frame]:
-            render_canvas.create_rectangle(x, y, x + size, y + size, width=0, fill=HEART_COLOR)
+            render_canvas.create_rectangle(
+                x, y, x + size, y + size, width=0, fill=HEART_COLOR)
 
 
 def draw(main: Tk, render_canvas: Canvas, render_heart: Heart, render_frame=0):
