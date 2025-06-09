@@ -2,7 +2,7 @@
 
 # 一些有趣的小代码
 
-## 静态页面（github上面可以挂载一些静态页面，自然可以用这个来展示一些简单的小玩意）
+## 一、静态页面（github上面可以挂载一些静态页面，自然可以用这个来展示一些简单的小玩意）
 
    1. confession-fireworks 文件夹里面是一个问答小页面
       <div><a href="https://shmily-xx.github.io/love-heart/confession-fireworks"><img src="./imgs/WX20250609-142228.png" style="height: 200px;width: 400px" /></a></div>
@@ -29,9 +29,11 @@
    12. love-heart-shining 文件夹是一个闪闪的爱心页面
       <div><a href="https://shmily-xx.github.io/love-heart/love-heart-shining"><img src="" style="height: 200px;width: 400px" /></a></div>
 
-## exe程序
+## 二、exe程序
+
    1. love.exe是一个以python代码生成的可以在windows上面运行的爱心程序
    2.  love.py是上面exe的源码
 
-## bat文件
+## 三、bat文件
+
    1.  shutdown 是windows的关机代码
