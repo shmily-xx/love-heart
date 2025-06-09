@@ -18,3 +18,5 @@
    <img src="./imgs/033.jpg" style="zoom:50%">
 10. love-heart-biu 文件夹是一个小人发送爱心页面<https://shmily-xx.github.io/love-heart/love-heart-biu/>
    <img src="./imgs/love-heart-biu.jpg" style="zoom:50%">
+11. love-heart-boom 文件夹是一个小人发送爱心页面<https://shmily-xx.github.io/love-heart/love-heart-boom/>
+   ![https://shmily-xx.github.io/love-heart/love-heart-boom/](WechatIMG2059.jpg)
