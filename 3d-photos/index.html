@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💗 情宝</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 设置可视窗口的宽高 */
+        body {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-color: pink;
+        }
+
+        .container {
+            position: absolute;
+            width: 1000px;
+            height: 500px;
+            top: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: run 10s linear infinite;
+        }
+
+        .circle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: 150px;
+        }
+
+        /*设置图像大小、边框、圆角、位置*/
+        .circle img {
+            width: 200px;
+            height: 150px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        .circle1 {
+            transform: translateZ(500px);
+        }
+
+        .circle2 {
+            transform: rotateY(36deg) translateZ(500px);
+        }
+
+        .circle3 {
+            transform: rotateY(72deg) translateZ(500px);
+        }
+
+        .circle4 {
+            transform: rotateY(108deg) translateZ(500px);
+        }
+
+        .circle5 {
+            transform: rotateY(144deg) translateZ(500px);
+        }
+
+        .circle6 {
+            transform: rotateY(180deg) translateZ(500px);
+        }
+
+        .circle7 {
+            transform: rotateY(216deg) translateZ(500px);
+        }
+
+        .circle8 {
+            transform: rotateY(252deg) translateZ(500px);
+        }
+
+        .circle9 {
+            transform: rotateY(288deg) translateZ(500px);
+        }
+
+        .circle10 {
+            transform: rotateY(324deg) translateZ(500px);
+        }
+
+        @keyframes run {
+            0% {
+                transform: rotateY(0);
+            }
+
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="circle circle1">
+                    <img src="./img/3c34955752619b17f415266a357a5e5.png" alt="">
+                </div>
+                <div class="circle circle2">
+                    <img src="./img/8f58c3c5bffc2f18be79fd9b0f8971e.png" alt="">
+                </div>
+                <div class="circle circle3">
+                    <img src="./img/8fc9e84c-484e-4f89-b871-34421f9284b9.png" alt="">
+                </div>
+                <div class="circle circle4">
+                    <img src="./img/9e77bccf218734fad7c95cef66375e6.png" alt="">
+                </div>
+                <div class="circle circle5">
+                    <img src="./img/21ecc17a31fa0bddd0bcfe80a3851e2.png" alt="">
+                </div>
+                <div class="circle circle6">
+                    <img src="./img/68c70852d780f89d63f367270f2756c.png" alt="">
+                </div>
+                <div class="circle circle7">
+                    <img src="./img/4321ee5afc97e6501b0e1a5b4541dae.png" alt="">
+                </div>
+                <div class="circle circle8">
+                    <img src="./img/ad7c2298ecf8e9900a6a3871e650deb.png" alt="">
+                </div>
+                <div class="circle circle9">
+                    <img src="./img/a3804045ae5eca95e9178b2a1f6160d.png" alt="">
+                </div>
+                <div class="circle circle10">
+                    <img src="./img/fb4935a83fbc1ad68e0f2aef51467f2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

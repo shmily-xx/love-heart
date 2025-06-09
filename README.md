@@ -14,10 +14,20 @@
       <a href="https://shmily-xx.github.io/love-heart/love-heart-fall"><img src="./imgs/WX20250609-142229.jpg" style="height: 200px;width: 400px" /></a>
    5. love-heart-diamonds 文件夹是一个红色爱心变换钻石页面
       <a href="https://shmily-xx.github.io/love-heart/love-heart-diamonds"><img src="./imgs/love-heart-diamonds.jpg" style="height: 200px;width: 400px" /></a>
-   6.  love-heart-biu 文件夹是一个小人发送爱心页面
+   6. love-heart-biu 文件夹是一个小人发送爱心页面
       <a href="https://shmily-xx.github.io/love-heart/love-heart-biu"><img src="./imgs/love-heart-biu.jpg" style="height: 200px;width: 400px" /></a>
-   7.  love-heart-boom 文件夹是一个小人发送爱心页面
+   7. love-heart-boom 文件夹是一个小人发送爱心页面
       <a href="https://shmily-xx.github.io/love-heart/love-heart-boom"><img src="./imgs/WechatIMG2059.jpg" style="height: 200px;width: 400px" /></a>
+   8. 3d-photos 文件夹是一个3d相册页面
+      <a href="https://shmily-xx.github.io/love-heart/love-heart-boom"><img src="" style="height: 200px;width: 400px" /></a>
+   9. love-heart-vindicate 文件夹是一个爱心表白页面
+      <a href="https://shmily-xx.github.io/love-heart/love-heart-vindicate"><img src="" style="height: 200px;width: 400px" /></a>
+   10. code-vindicate 文件夹是一个代码表白页面
+      <a href="https://shmily-xx.github.io/love-heart/code-vindicate"><img src="" style="height: 200px;width: 400px" /></a>
+   11. love-heart-meteor 文件夹是一个背景有流星的爱心页面
+      <a href="https://shmily-xx.github.io/love-heart/love-heart-meteor"><img src="" style="height: 200px;width: 400px" /></a>
+   12. love-heart-shining 文件夹是一个闪闪的爱心页面
+      <a href="https://shmily-xx.github.io/love-heart/love-heart-shining"><img src="" style="height: 200px;width: 400px" /></a>
 
 ## exe程序
    1. love.exe是一个以python代码生成的可以在windows上面运行的爱心程序
