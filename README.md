@@ -16,3 +16,5 @@
    <img src="./imgs/WX20250609-142229.png" style="zoom:50%;" />
 9. love-heart-diamonds 文件夹是一个红色爱心变换钻石页面<https://shmily-xx.github.io/love-heart/love-heart-diamonds/>
    <img src="./imgs/033.jpg" style="zoom:50%">
+10. love-heart-biu 文件夹是一个小人发送爱心页面<https://shmily-xx.github.io/love-heart/love-heart-biu/>
+   <img src="./imgs/love-heart-biu.jpg" style="zoom:50%">
