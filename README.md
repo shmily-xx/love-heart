@@ -6,6 +6,8 @@
 
    1. confession-fireworks 文件夹里面是一个问答小页面
       <div><a href="https://shmily-xx.github.io/love-heart/confession-fireworks"><img src="./imgs/WX20250609-142228.png" style="height: 200px;width: 400px" /></a></div>
+      [![问答小页面](./imgs/WX20250609-142228.png#pic_center =200x400)](https://shmily-xx.github.io/love-heart/confession-fireworks)
+
    2. happy-new-year-fireworks 文件夹里面是一个新年祝福烟花页面
       <div><a href="https://shmily-xx.github.io/love-heart/happy-new-year-fireworks"><img src="./imgs/WX20250121-090345.png" style="height: 200px;width: 400px" /></a></div>
    3. love-heart-simple 文件夹里面是一个动态爱心页面
